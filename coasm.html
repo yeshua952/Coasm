@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coasm bot 💀🥶</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #chat-box {
+            width: 90%;
+            max-width: 400px;
+            height: 400px;
+            background-color: #333;
+            border-radius: 10px;
+            padding: 10px;
+            overflow-y: auto;
+        }
+        .message {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .user {
+            background-color: #007bff;
+            align-self: flex-end;
+        }
+        .bot {
+            background-color: #555;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-box">
+        <div class="message bot">Bienvenido a Coasm 💀🥶</div>
+    </div>
+    <input type="text" id="user-input" placeholder="Escribe un mensaje...">
+    <button id="send-btn">Enviar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
